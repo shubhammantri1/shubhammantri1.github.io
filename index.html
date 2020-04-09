@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Fonts -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Roboto+Condensed&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@600&display=swap"
+    rel="stylesheet">
+
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="external.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+  <!--BootStrap Nav Bar-->
+
+  <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark" id="navbar">
+    <a class="navbar-brand" href="index.html"><img src="Images/logo.png" width="64px" id="logo"></a>
+    <button id="navButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-5">
+        <li class="nav-item ">
+          <a id="Home_Btn" class="nav-link pr-4 active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a id="About_Btn" class="nav-link pr-4" href="#About_Container">About</a>
+        </li>
+        <li class="nav-item">
+          <a id="Skills_Btn" class="nav-link pr-4" href="#Skills_Container">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a id="Projects_Btn" class="nav-link pr-4" href="#Projects_Container">Projects</a>
+        </li>
+        <li class="nav-item">
+          <div id="Contact_Btn" class="nav-link pr-4">Contact</div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Home Container-->
+
+
+  <div class="Home_Container">
+    <!-- <img id="My_Img" src="./Images/lapii.jpg" alt="My Photo"> -->
+    <div data-aos="fade-left" data-aos-duration="2000" id="rmShadow" class="Main_Text mx-5 p-3 shadow">
+      <h4 data-aos="fade-left" id="Hello_Text">नमस्ते,</h4>
+      <h1 id="My_Name" data-aos="fade-left">I'm Shubham Mantri.</h1>
+      <h3 class="Gen_Font Quote" data-aos="fade-left">First make it work, then make it right, and, finally, make it
+        fast.</h3>
+    </div>
+  </div>
+
+  <hr class="style-three">
+
+
+  <!--About Container-->
+
+
+  <div id="About_Container">
+    <div data-aos = "zoom-in-up" data-aos-duration="2000" id="About_Text">
+      <div>About Me</div>
+      <h1>Who Am I ?</h1>
+      <p class="Gen_Font">Hey, I'm Shubham Mantri currently pursuing my Bachelor's degree in Computer Science from Birla
+        Institue of Technology, Mesra in Ranchi, Jharkhand. Currently, I'm in 2nd Year(4th Semester) and exploring the
+        vast field of Computer Science. I Loves to code.
+        I have Experience in Android as well as Web development and strongly believes in open source contribution. I am
+        actively participate in Competitive Programming.
+      </p>
+    </div>
+    <!--Bootstrap Cards in About Container-->
+
+
+    <div class="Cards_Container">
+      <div class="row">
+        <div data-aos="flip-left" data-aos-duration="2000" class="col-12 col-lg-4">
+          <div class="card bg-danger mx-5 mb-5 border-bottom shadow card_size">
+            <!-- <img src="./Images/android.png" alt="Android" class="card-img-top"> -->
+            <div class="card-body">
+              <h5 class="card-title text-center">Android</h5>
+              <ul>
+                <li>Looking For Opportunites.</li>
+                <li>Certified form Internshala.</li>
+                <li>Platform: Android Studio</li>
+                <li>Kotlin</li>
+              </ul>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div data-aos-duration="2000" data-aos="zoom-in" class="col-12 col-lg-4">
+          <div class="card bg-success mx-5 mb-5 border-bottom shadow card_size">
+            <div class="card-body">
+              <h5 class="card-title text-center">Web-Development</h5>
+              <ul>
+                <li>Looking For Opportunites.</li>
+                <li>Completed 1 Internship.</li>
+                <li>FDC Scholar</li>
+                <li>MERN</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-right" data-aos-duration="2000" class="col-12 col-lg-4">
+          <div class="card bg-dark mx-5 mb-5 border-bottom shadow card_size">
+            <div class="card-body">
+              <h5 class="card-title text-center">Competitive Programming</h5>
+              <ul>
+                <li>Google Foobar</li>
+                <li>Codechef</li>
+                <li>Codeforces</li>
+                <li>Atcoder</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="style-three">
+
+  <!-- Skills Container -->
+
+  <div id="Skills_Container">
+    <div data-aos = "zoom-in-up" data-aos-duration="2000" class="Skills_Text">
+      <div>My Speciality</div>
+      <h1>My Skills</h1>
+    </div>
+    <div class="Skills_Bar" data-aos = "zoom-in-up" data-aos-duration="2000">
+      <div class="row mx-3 mb-1 p-1">
+        <div class="col-12 col-lg-6 shadow">
+          <div class="mx-3 mb-1 p-1">
+            <h5 class="card-title">Front-End</h5>
+            <div class="mx-2 mb-1 p-1">
+              <h5 class="card-title">React</h5>
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 45%" aria-valuenow="45"
+                  aria-valuemin="0" aria-valuemax="100">45%</div>
+              </div>
+            </div>
+
+            <div class="mx-2 mb-1 p-1">
+              <h5 class="card-title">HTML5/CSS</h5>
+              <div class="progress">
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%" aria-valuenow="80"
+                  aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+            </div>
+
+            <div class="mx-2 mb-1 p-1">
+              <h5 class="card-title">JavaScript</h5>
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 55%" aria-valuenow="55"
+                  aria-valuemin="0" aria-valuemax="100">55%</div>
+              </div>
+            </div>
+
+            <div class="mx-2 mb-1 p-1">
+              <h5 class="card-title">BootStrap</h5>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="60"
+                  aria-valuemin="0" aria-valuemax="100">60%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 shadow">
+          <div class="mx-2 mb-1 p-1">
+            <h5 class="card-title">Back-End</h5>
+            <div class="mx-2 mb-1 p-1">
+              <h5 class="card-title">Node.js</h5>
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 45%" aria-valuenow="45"
+                  aria-valuemin="0" aria-valuemax="100">45%</div>
+              </div>
+            </div>
+
+            <div class="mx-2 mb-1 p-1">
+              <h5 class="card-title">Express.js</h5>
+              <div class="progress">
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 55%" aria-valuenow="55"
+                  aria-valuemin="0" aria-valuemax="100">55%</div>
+              </div>
+            </div>
+
+            <div class="mx-2 mb-1 p-1">
+              <h5 class="card-title">MongoDB</h5>
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60"
+                  aria-valuemin="0" aria-valuemax="100">60%</div>
+              </div>
+            </div>
+
+            <div class="mx-2 mb-1 p-1">
+              <h5 class="card-title">Rest API</h5>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75"
+                  aria-valuemin="0" aria-valuemax="100">75%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="mx-3 mb-1 p-1 shadow">
+          <h5 class="card-title mx-3">Android Studio</h5>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="mx-3 mb-1 p-1">
+                <h5 class="card-title">Kotlin</h5>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 55%" aria-valuenow="55"
+                    aria-valuemin="0" aria-valuemax="100">55%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="mx-3 mb-1 p-1">
+                <h5 class="card-title">Java</h5>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100">40%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <hr class="style-three">
+  
+  <!-- Projects -->
+  
+  
+  <div id="Projects_Container">
+    <div data-aos = "zoom-in-up" data-aos-duration="2000" class="Projects_Text">
+      <div>Accompalishments</div>
+      <h1>My Projects</h1>
+    </div>
+
+    <div data-aos="zoom-in-up"  class="Projects_List">
+      <div class="d-flex shadow mx-5 p-3 justify-content-center">Android Projects</div>
+      <div class="row mx-2">
+        <div class="accordion mx-5 p-3 w-100" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  ToDo List App
+                </button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body bg-secondary">
+                <div class="row my-2 shadow smll">
+                  <img class="Img_Todo" src="./Images/todo-app-icon.png" alt="App-icon">
+                  <div class="Content_Text mx-2">
+                    <h5>Name: Stacky(Todo list app)</h5>
+                    <h5>Language: Kotlin, MYSQL</h5>
+                    <h5><a
+                        href="https://github.com/shubhammantri1/TODO-LIST_APP">https:/github.com/shubhammantri1/TODO-LIST_APP</a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  Scheduler-App
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body bg-secondary">
+                <div class="row my-2 shadow smll">
+                  <img src="https://img.icons8.com/cute-clipart/50/000000/task.png"/>
+                  <div class="Content_Text mx-2">
+                    <h5>Name: Scheduler-App</h5>
+                    <h5>Language: Kotlin, MYSQL</h5>
+                    <h5><a href="https://github.com/shubhammantri1/Scheduling-App">https://github.com/shubhammantri1/Scheduling-App</a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--Web-Projects-->
+
+    <div class="d-flex shadow mx-5 p-3 justify-content-center">Web-Projects</div>
+    <div class="row mx-2">
+      <div class="accordion mx-5 p-3 w-100" id="accordionEx">
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="true" aria-controls="collapseThree">
+                Notes App
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionEx">
+            <div class="card-body bg-secondary">
+              <div class="row my-2 shadow smll">
+                <img class="Img_Todo" src="./Images/todo-app-icon.png" alt="App-icon">
+                <div class="Content_Text mx-2">
+                  <h5>Name: Notes App(This)</h5>
+                  <h5>Language: Node.js, JSON</h5>
+                  <h5><a
+                      href="https://github.com/shubhammantri1/NotesApp">https://github.com/shubhammantri1/NotesApp</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+                aria-expanded="true" aria-controls="collapseFour">
+                React-Bootstrap Website
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordionEx">
+            <div class="card-body bg-secondary">
+              <div class="row my-2 shadow smll">
+                <img src="https://img.icons8.com/dusk/64/000000/domain.png" alt="Website-Logo">
+                <div class="Content_Text mx-2">
+                  <h5>Name: React-Bootstrap SpaceSite</h5>
+                  <h5>Language: React, BootStrap, HTML, JS</h5>
+                  <h5><a href="https://github.com/shubhammantri1/React">https://github.com/shubhammantri1/React</a></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+                aria-expanded="false" aria-controls="collapseFive">
+                Portfolio(This Website)
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionEx">
+            <div class="card-body bg-secondary">
+              <div class="row my-2 shadow smll">
+                <img src="https://img.icons8.com/plasticine/100/000000/resume-website.png" />
+                <div class="Content_Text mx-2">
+                  <h5>Name: Portfolio</h5>
+                  <h5>Language: HTML5, CSS3, BOOTSTRAP</h5>
+                  <h5><a href="#">To Be Added</a></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingSix">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix"
+                aria-expanded="false" aria-controls="collapseSix">
+                Typing-Game
+              </button>
+            </h2>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionEx">
+            <div class="card-body bg-secondary">
+              <div class="row my-2 shadow smll">
+                <img src="https://img.icons8.com/dusk/64/000000/contract-job.png" />
+                <div class="Content_Text mx-2">
+                  <h5>Name: Typing Game</h5>
+                  <h5>Language: Html, Css, Js</h5>
+                  <h5><a href="#">To Be Added</a></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="The_End">
+    <div data-aos = "zoom-in-up" data-aos-duration="2000" class="Projects_Text">
+      <div class="text-center">Made with <img width="6%" src="./Images/heart3.png"> By Shubham</div>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="d-flex mx-3" id="Contact_Me">
+    <div class="ml-3 justify-content-center shadow">
+      <a href="#"><img id="img_size1" src="https://img.icons8.com/nolan/64/000000/facebook-new.png"></a>
+      <a href="#"><img id="img_size2" src="https://img.icons8.com/nolan/64/000000/instagram-new.png"></a>
+      <a href="#"><img id="img_size3" src="https://img.icons8.com/nolan/64/000000/linkedin.png"></a>
+      <a href="#"><img id="img_size4" src="https://img.icons8.com/nolan/64/000000/github.png"></a>
+    </div>
+  </div>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
