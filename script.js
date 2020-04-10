@@ -48,7 +48,7 @@ contactBtn.addEventListener('click', function(){
             calc = (vw/2) - 220;
         }
         else{
-            calc = (vw/2) - 130;
+            calc = (vw/2) - 150;
         }
         imgSize1.style.width = "8vh"
         imgSize2.style.width = "8vh"

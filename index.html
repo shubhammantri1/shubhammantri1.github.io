@@ -2,16 +2,14 @@
 <html lang="en">
 
 <head>
-  <title>Home</title>
+  <title>Shubham Mantri</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <!-- Fonts -->
 
   <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
-
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Roboto+Condensed&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -19,18 +17,31 @@
     rel="stylesheet">
 
 
-  <!-- AOS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-  <!-- CSS Files -->
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="external.css">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
   <!--BootStrap Nav Bar-->
-
+  <div id="loading">
+    <div class="loader">
+      <div class="circles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </div>
+      <div class="pacman">
+        <span class="top"></span>
+        <span class="bottom"></span>
+        <span class="left"></span>
+        <div class="eye"></div>
+      </div>
+    </div>  
+  </div>
+  
   <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark" id="navbar">
     <a class="navbar-brand" href="index.html"><img src="Images/logo.png" width="64px" id="logo"></a>
     <button id="navButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -62,10 +73,9 @@
 
 
   <div class="Home_Container">
-    <!-- <img id="My_Img" src="./Images/lapii.jpg" alt="My Photo"> -->
     <div data-aos="fade-left" data-aos-duration="2000" id="rmShadow" class="Main_Text mx-5 p-3 shadow">
       <h4 data-aos="fade-left" id="Hello_Text">नमस्ते,</h4>
-      <h1 id="My_Name" data-aos="fade-left">I'm Shubham Mantri.</h1>
+      <h1 id="My_Name" data-aos="fade-left">It's me Shubham Mantri.</h1>
       <h3 class="Gen_Font Quote" data-aos="fade-left">First make it work, then make it right, and, finally, make it
         fast.</h3>
     </div>
@@ -84,18 +94,15 @@
       <p class="Gen_Font">Hey, I'm Shubham Mantri currently pursuing my Bachelor's degree in Computer Science from Birla
         Institue of Technology, Mesra in Ranchi, Jharkhand. Currently, I'm in 2nd Year(4th Semester) and exploring the
         vast field of Computer Science. I Loves to code.
-        I have Experience in Android as well as Web development and strongly believes in open source contribution. I am
-        actively participate in Competitive Programming.
+        I have Experience in Android as well as Web development and strongly believes in open source contribution and contributed for many organizations.
       </p>
     </div>
-    <!--Bootstrap Cards in About Container-->
-
+    
 
     <div class="Cards_Container">
       <div class="row">
         <div data-aos="flip-left" data-aos-duration="2000" class="col-12 col-lg-4">
           <div class="card bg-danger mx-5 mb-5 border-bottom shadow card_size">
-            <!-- <img src="./Images/android.png" alt="Android" class="card-img-top"> -->
             <div class="card-body">
               <h5 class="card-title text-center">Android</h5>
               <ul>
@@ -265,12 +272,13 @@
     <div data-aos="zoom-in-up"  class="Projects_List">
       <div class="d-flex shadow mx-5 p-3 justify-content-center">Android Projects</div>
       <div class="row mx-2">
-        <div class="accordion mx-5 p-3 w-100" id="accordionExample">
+        <div class="accordion mx-5 p-3 sDash" id="accordionExample">
           <div class="card">
             <div class="card-header" id="headingOne">
               <h2 class="mb-0">
                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
                   aria-expanded="true" aria-controls="collapseOne">
+                  <i class="fa fa-plus"></i>
                   ToDo List App
                 </button>
               </h2>
@@ -295,7 +303,7 @@
               <h2 class="mb-0">
                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
                   aria-expanded="false" aria-controls="collapseTwo">
-                  Scheduler-App
+                  <i class="fa fa-plus"></i>Scheduler-App
                 </button>
               </h2>
             </div>
@@ -320,13 +328,13 @@
 
     <div class="d-flex shadow mx-5 p-3 justify-content-center">Web-Projects</div>
     <div class="row mx-2">
-      <div class="accordion mx-5 p-3 w-100" id="accordionEx">
+      <div class="accordion mx-5 p-3 sDash" id="accordionEx">
         <div class="card">
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree"
                 aria-expanded="true" aria-controls="collapseThree">
-                Notes App
+                <i class="fa fa-plus"></i>Notes App
               </button>
             </h2>
           </div>
@@ -350,7 +358,7 @@
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
                 aria-expanded="true" aria-controls="collapseFour">
-                React-Bootstrap Website
+                <i class="fa fa-plus"></i>React-Bootstrap Website
               </button>
             </h2>
           </div>
@@ -372,7 +380,7 @@
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
                 aria-expanded="false" aria-controls="collapseFive">
-                Portfolio(This Website)
+                <i class="fa fa-plus"></i>Portfolio(This Website)
               </button>
             </h2>
           </div>
@@ -394,7 +402,7 @@
             <h2 class="mb-0">
               <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix"
                 aria-expanded="false" aria-controls="collapseSix">
-                Typing-Game
+                <i class="fa fa-plus"></i>Typing-Game
               </button>
             </h2>
           </div>
@@ -417,7 +425,7 @@
 
   <div id="The_End">
     <div data-aos = "zoom-in-up" data-aos-duration="2000" class="Projects_Text">
-      <div class="text-center">Made with <img width="6%" src="./Images/heart3.png"> By Shubham</div>
+      <div class="text-center">Made with <img src="https://img.icons8.com/cotton/50/000000/like.png"/> By Shubham</div>
     </div>
   </div>
 
@@ -425,28 +433,42 @@
 
   <div class="d-flex mx-3" id="Contact_Me">
     <div class="ml-3 justify-content-center shadow">
-      <a href="#"><img id="img_size1" src="https://img.icons8.com/nolan/64/000000/facebook-new.png"></a>
-      <a href="#"><img id="img_size2" src="https://img.icons8.com/nolan/64/000000/instagram-new.png"></a>
-      <a href="#"><img id="img_size3" src="https://img.icons8.com/nolan/64/000000/linkedin.png"></a>
-      <a href="#"><img id="img_size4" src="https://img.icons8.com/nolan/64/000000/github.png"></a>
+      <a href="https://www.facebook.com/shubham.mantri.927?ref=bookmarks"><img id="img_size1" src="https://img.icons8.com/nolan/64/000000/facebook-new.png"></a>
+      <a href="https://www.instagram.com/smantri99/?hl=en"><img id="img_size2" src="https://img.icons8.com/nolan/64/000000/instagram-new.png"></a>
+      <a href="https://www.linkedin.com/in/shubham-mantri-264b29180/"><img id="img_size3" src="https://img.icons8.com/nolan/64/000000/linkedin.png"></a>
+      <a href="https://github.com/shubhammantri1"><img id="img_size4" src="https://img.icons8.com/nolan/64/000000/github.png"></a>
     </div>
   </div>
 
-
+  <script>
+    document.onreadystatechange = function() { 
+        if (document.readyState !== "complete") { 
+            document.querySelector( 
+              "body").style.visibility = "hidden"; 
+            document.querySelector( 
+              ".loader").style.visibility = "visible"; 
+        } else { 
+            document.querySelector( 
+              ".loader").style.display = "none"; 
+            document.querySelector( 
+              "body").style.visibility = "visible"; 
+        } 
+    }; 
+  </script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <script src="script.js"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="external.js"></script>
+  </body>
 </html>
