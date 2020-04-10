@@ -20,8 +20,15 @@ var activeContact = true;
 var lastActiveTab = 0;
 const vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 
-alert(vw);
+window.onload=function(){
+    var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+    if (mobile) {
+        alert(vw);              
+    } else {
 
+    }
+  }
+  
 function changeText(){
     if(indi){
         text.innerHTML = "Hello,"
