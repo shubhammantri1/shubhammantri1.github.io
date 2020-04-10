@@ -20,7 +20,7 @@ var activeContact = true;
 var lastActiveTab = 0;
 const vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 
-
+alert(vw);
 
 function changeText(){
     if(indi){
