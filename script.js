@@ -55,7 +55,12 @@ contactBtn.addEventListener('click', function(){
         imgSize3.style.width = "8vh"
         imgSize4.style.width = "8vh"
         contactTab.style.width = "250px";
-        contactTab.style.left = `${calc}px`;
+        if(vw>360){
+            contactTab.style.left = `${calc}px`;
+        }
+        else{
+            contactTab.style.float = "left";
+        }
         contactTab.classList.add("Add_Anim");
     }
     else if(!activeContact && vw > 990){
