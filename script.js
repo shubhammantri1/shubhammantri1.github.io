@@ -58,7 +58,7 @@ contactBtn.addEventListener('click', function(){
             contactTab.style.left = `${calc}px`;
         }
         else{
-            contactTab.style.left = "0%";
+            contactTab.style.float = "left";
         }
         contactTab.classList.add("Add_Anim");
     }
