@@ -55,7 +55,7 @@ contactBtn.addEventListener('click', function(){
         imgSize3.style.width = "8vh"
         imgSize4.style.width = "8vh"
         contactTab.style.width = "250px";
-        if(vw>360){
+        if(vw>400){
             contactTab.style.left = `${calc}px`;
         }
         else{

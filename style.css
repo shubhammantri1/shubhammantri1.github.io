@@ -68,7 +68,7 @@ body{
 
 @keyframes animi {
     0% {left: 100%;}
-    100% {left: 33.5%;}
+    100% {left: 0%;}
 }
 
 .Hello_Text{
