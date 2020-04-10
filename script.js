@@ -20,15 +20,7 @@ var activeContact = true;
 var lastActiveTab = 0;
 const vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 
-window.onload=function(){
-    var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
-    if (mobile) {
-        alert(vw);              
-    } else {
 
-    }
-  }
-  
 function changeText(){
     if(indi){
         text.innerHTML = "Hello,"
@@ -62,7 +54,7 @@ contactBtn.addEventListener('click', function(){
         imgSize3.style.width = "8vh"
         imgSize4.style.width = "8vh"
         contactTab.style.width = "280px";
-        if(vw>400){
+        if(vw>500){
             contactTab.style.left = `${calc}px`;
         }
         else{
